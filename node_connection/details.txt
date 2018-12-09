@@ -1,0 +1,3 @@
+this folder holds a file called node which will
+specifically set up the socket connection for a particular
+node. It sets up the sockets on the port number provided.

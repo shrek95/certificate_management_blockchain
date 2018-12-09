@@ -1,0 +1,21 @@
+this netowrk is a p2p network.
+
+In this evaluators are connected to each other, 
+
+   when an evaluator is registerd for becoming a node, it accesses the register.hpp file to intitate the 
+on-boarding process and receives a list IP's of the evaluator node from those evaluators who are 
+always online.
+
+Then the code keeps the node in always listening state.
+
+Following are the task performed by the code for the n/w:
+    - hardcoded list of always alive nodes(just for once) is extracted from
+    the code.
+    - pings all the always alive nodes to get the list of neighbouring
+    nodes (happens only for once).
+    - receives the list of all the other nodes (happens only for once).
+    - sends continuously all the nodes a heatbeat signal after a particular
+    interval.
+    - receives the test and checks the test and makes a note of the score 
+    incorrespondence to the students's Uid.
+

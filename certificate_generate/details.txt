@@ -1,0 +1,11 @@
+Here are the details regrading the certificate generation of a particular student
+
+details mentioned on a certificate:
+-student's name
+-Uid
+-student's score
+-certificate id
+-evaluator's id
+-timestamp
+-evaluator's signature
+

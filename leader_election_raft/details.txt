@@ -1,0 +1,12 @@
+In this document, leader election is being done in which, a leader is elected by the 
+process of taking random turns after confirmed trnasactional values , which means supposedly a 
+node becomes leader after every two transaction and this leader has the following work to perform:
+
+        - leader election is done totally randomly amongst the list of
+        validators.
+        - leader has to take the test file from the user and send it to all the
+        nodes.
+        - but before sending, it has to valdiate the authenticity of the user.
+        - receive back the consensus result and forward it back to the other
+        evaluators.
+

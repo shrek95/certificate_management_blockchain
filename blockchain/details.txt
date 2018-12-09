@@ -1,0 +1,29 @@
+Here is the code for the blockchain.
+
+In this here are the details we need to make a block, 
+   
+   - every student will get a block per test. If a 
+student takes 100 tests that student has 100 blocks in the chain.
+   - details are:
+
+block body
+        student name
+        Uid
+        certificate unique number
+        certificate digital format storage location on server
+        evaluator's id
+        validator's id
+        test id
+        technology code
+        Leader id
+blockheader
+        magic number ----> for differentiating the network in essence, test n/w  and main n/w
+        time taken for a block to be made
+        block id
+        block hash
+        timestamp
+        
+
+
+
+

@@ -1,0 +1,11 @@
+In this document validator network logic is present.
+
+    - Validators are those who have more then threshold votes as for example it
+    is 1k.
+    - Validators have four main tasks and they are:
+        . Holds the blockchain.
+        . Valiates transaction using the blockchain.(not literal Blockchain, matches it from key value
+                pair of students).
+        . confirm the leader about the validity of the transaction.
+        . announce the block if valid to the leader.
+                and if not valid send back the report for illegal transaction.

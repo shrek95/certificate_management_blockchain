@@ -1,0 +1,13 @@
+In this work flow we have three elements to consider a student, an evaluator and a validator.
+So a student submits the test to the application end and then the application forwards it to the network,
+   the network has a leader being elected in every interval of time and that leader will take up the test paper.
+every node has a list of IPs, segregated on the basis of technologies. Suppose every technology has atleast 100 faculties registered,
+
+      
+      These faculties play as the test validators, they check the test and genrate a certificate and race against the time to make a 
+transaction and propose first in the network before any one else. As the transaction is sent ahead it is being cross referenced by the 
+score of others in the technology and if the result is unanimous by more than 5 evaluators, the leader writes the transaction in 
+the blockchain.
+        
+        Leaders are calculated amongst the 1k evaluators who have the credit as 1k 
+
